@@ -2,18 +2,12 @@ import pandas as pd
 import requests
 import re
 
-# Replace this with your actual OpenRouter API Key
 OPENROUTER_API_KEY = "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"
 REFERER = "https://github.com/SINGHSIDDHARTH22/linkedin-content-ai"
 
 BATCH_SIZE = 10  # Number of posts to process in each batch
 
 def analyze_average_tone_with_llama(post_tones, post_contents, hashtags):
-    """
-    Use LLaMA API to analyze the average tone of multiple LinkedIn posts.
-    The tone is determined by analyzing a list of tones, contents, and hashtags from the posts.
-    """
-    # Build a structured prompt with the tones, content, and hashtags of all posts
     posts_info = []
     for i in range(len(post_tones)):
         post_content = post_contents[i]  # No truncation here
