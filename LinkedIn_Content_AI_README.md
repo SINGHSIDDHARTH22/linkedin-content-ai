@@ -39,9 +39,6 @@ This tool helps you:
 - Allows manual rating of generated posts.
 - Fine-tunes future generations based on feedback.
 
-### 💡 Topic Suggester (Optional)
-- Analyzes trending themes from scraped data and recommends new topics.
-
 ### 🌐 Streamlit App
 - Input a topic, tone, and intent.
 - View post suggestions and engagement scores.
@@ -133,6 +130,9 @@ Trains a model on features like word count, CTA usage, and emojis. Outputs `enga
 Feel free to fork, clone, or build on top of it! DM if you make something cool with it 🚀
 
 ## Example Results
+
+![Screenshot 2025-04-20 215823](https://github.com/user-attachments/assets/e005dd3d-e0bd-4172-a588-f1c9dec75fbc)
+
 
 ![image](https://github.com/user-attachments/assets/ed5de4eb-3327-4e72-8f60-7129e3c556eb)
 
