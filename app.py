@@ -10,7 +10,7 @@ hashtags_input = st.text_input("Enter hashtags (comma-separated):", "#founderlif
 hashtags = [tag.strip() for tag in hashtags_input.split(",") if tag]
 
 tone = st.selectbox("Choose tone", ["storytelling", "listicle", "opinion", "professional","insightful","casual", "inspirational", "funny"])
-style = st.selectbox("Choose style", ["inspirational", "insightful", "casual"])
+style = st.selectbox("Choose style", ["inspirational", "insightful", "casual", "funny", "suggestive"])
 
 # Generate Posts
 if topic and st.button("Generate 3 Post Variations"):
