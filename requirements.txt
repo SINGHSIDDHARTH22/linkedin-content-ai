@@ -1,0 +1,10 @@
+openai
+streamlit
+pandas
+matplotlib
+seaborn
+nltk
+wordcloud
+playwright
+scikit-learn
+joblib
