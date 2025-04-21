@@ -1,17 +1,11 @@
 import requests
 
-# Replace this with your actual OpenRouter API Key
 OPENROUTER_API_KEY = "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"
 
-# This is required by OpenRouter. Use your GitHub profile or project page.
 REFERER = "https://github.com/SINGHSIDDHARTH22/linkedin-content-ai"
 
 def generate_post(topic, tone="storytelling", style="inspirational", hashtags=None, include_cta=True, include_emojis=True):
-    """
-    Generate a LinkedIn post using LLaMA 3 (8B Instruct) via OpenRouter API.
-    """
 
-    # Build prompt dynamically based on flags
     prompt = f"""You are writing a LinkedIn post for a founder audience.
 
 Write a {tone}-style post in an {style} tone about: "{topic}".
